@@ -69,10 +69,3 @@ if st.button("Predict Performance", use_container_width=True):
 
 st.markdown("---")
 st.caption("Built with Python · scikit-learn · Streamlit")
-```
-
-After replacing, push to GitHub:
-```
-git add app.py
-git commit -m "Auto train model if pkl not found"
-git push origin main
